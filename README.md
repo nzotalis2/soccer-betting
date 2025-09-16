@@ -63,13 +63,30 @@ In the first row, the model provided a 49.9% probability of Colorado beating Kan
 
 In the second row, the model provided a 34.7% probability of a draw between Minnesota and Portland, while the book odds were only 24%. In this case, the game indeed ended in a 1-1 draw, so we win the bet, and our payout is given by (1 / 0.24) - 1 = 3.167.
 
-The model has been trained on historical data availble at https://www.football-data.co.uk/. Over a long time horizon, following the procedure above should yield positive returns. In testing over data starting on 8/25/12 and extending to 6/26/25, the model achieved a profit of +1,402 "units" after 10,904 bets, a ROI of 12.8%. Extensive measures have been taken to validate the model and prevent overfitting. As of 6/26/25 I have been betting real money following the predictions. Therefore in the Excel sheet there is a tab which tracks returns since 6/26/25. Fingers crossed for a profitable season.
+The model has been trained on historical data availble at https://www.football-data.co.uk/. Over a long time horizon, following the procedure above should yield positive returns. In testing over data starting on 8/25/12 and extending to the present day, the model achieved a profit of +1,320 "units" after 11,076 bets, a ROI of 11.9%. Extensive measures have been taken to validate the model and prevent overfitting. As of 6/26/25 I have been betting real money following the predictions. Therefore in the Excel sheet there is a tab which tracks returns since 6/26/25. Fingers crossed for a profitable season.
 
 
-# Update history
+# Performance over last 20 weeks
 
-| Date       | Profit | Num Bets | ROI   | Total Sum | Total Num Bets | Total ROI |
-|------------|--------|----------|-------|-----------|----------------|-----------|
-| 08/26/2025 | +11.678   | 17        | 68.69% | 11.678      | 17              | 68.69%     |
-| 09/02/2025 | +4.475   | 17       | 26.32% | 16.153       | 34              | 47.5%      |
-| 09/08/2025 | +2.049   | 2        | 102.45% | 18.202      | 36             | 50.56%     |
+| Date Range | Profit | Num Bets | ROI | Total Profit | Total Num Bets | Total ROI |
+|---------------------|--------|----------|-------|--------------|----------------|-----------|
+| 04/29/2025 - 05/05/2025 | +1.368 | 34 | 4.02% | +1.368 | 34 | 4.02% |
+| 05/06/2025 - 05/12/2025 | +9.387 | 29 | 32.37% | +10.755 | 63 | 17.07% |
+| 05/13/2025 - 05/19/2025 | +18.339 | 37 | 49.56% | +29.094 | 100 | 29.09% |
+| 05/20/2025 - 05/26/2025 | +11.031 | 23 | 47.96% | +40.125 | 123 | 32.62% |
+| 05/27/2025 - 06/02/2025 | +4.534 | 23 | 19.71% | +44.659 | 146 | 30.59% |
+| 06/03/2025 - 06/09/2025 | +1.803 | 5 | 36.06% | +46.462 | 151 | 30.77% |
+| 06/10/2025 - 06/16/2025 | -0.870 | 8 | -10.88% | +45.592 | 159 | 28.67% |
+| 06/17/2025 - 06/23/2025 | +0.000 | 0 | 0.00% | +45.592 | 159 | 28.67% |
+| 06/24/2025 - 06/30/2025 | -5.724 | 21 | -27.26% | +39.868 | 180 | 22.15% |
+| 07/01/2025 - 07/07/2025 | -5.563 | 14 | -39.74% | +34.305 | 194 | 17.68% |
+| 07/08/2025 - 07/14/2025 | -4.340 | 13 | -33.38% | +29.965 | 207 | 14.48% |
+| 07/15/2025 - 07/21/2025 | -0.720 | 22 | -3.27% | +29.245 | 229 | 12.77% |
+| 07/22/2025 - 07/28/2025 | -10.077 | 17 | -59.28% | +19.168 | 246 | 7.79% |
+| 07/29/2025 - 08/04/2025 | -5.000 | 5 | -100.00% | +14.168 | 251 | 5.64% |
+| 08/05/2025 - 08/11/2025 | +8.257 | 19 | 43.46% | +22.425 | 270 | 8.31% |
+| 08/12/2025 - 08/18/2025 | -2.617 | 17 | -15.39% | +19.808 | 287 | 6.90% |
+| 08/19/2025 - 08/25/2025 | +12.967 | 18 | 72.04% | +32.775 | 305 | 10.75% |
+| 08/26/2025 - 09/01/2025 | +3.475 | 17 | 20.44% | +36.250 | 322 | 11.26% |
+| 09/02/2025 - 09/08/2025 | +2.049 | 2 | 102.45% | +38.299 | 324 | 11.82% |
+| 09/09/2025 - 09/15/2025 | +6.526 | 15 | 43.51% | +44.825 | 339 | 13.22% |
