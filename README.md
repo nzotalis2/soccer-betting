@@ -1,5 +1,16 @@
 ## 📊 Data File
-Download the Excel spreadsheet [here](./out.xlsx).
+Download the Excel spreadsheet [here](./out_excel.xlsx).
+
+## Time-Window Summary
+
+| Window | Date Range | Profit | Num Bets | ROI |
+|----------------|---------------------|--------|----------|-------|
+| Last 30 Days | 10/12/2025 - 11/10/2025 | +3.753 | 71 | 5.29% |
+| Last 3 Months | 08/13/2025 - 11/10/2025 | +16.788 | 210 | 7.99% |
+| Last 6 Months | 05/15/2025 - 11/10/2025 | +29.428 | 411 | 7.16% |
+| YTD | 01/01/2025 - 11/10/2025 | +93.105 | 752 | 12.38% |
+| Last 52 Weeks | 11/11/2024 - 11/10/2025 | +121.325 | 838 | 14.48% |
+| All Time | 08/25/2012 - 11/10/2025 | +1318.669 | 11192 | 11.78% |
 
 How to read the spreadsheet:
 <table>
@@ -66,16 +77,6 @@ In the second row, the model provided a 34.7% probability of a draw between Minn
 The model has been trained on historical data availble at https://www.football-data.co.uk/. Over a long time horizon, following the procedure above should yield positive returns. In testing over data starting on 8/25/12 and extending to the present day, the model achieved a profit of +1318.669 "units" after 11192 bets, a ROI of 11.78%. Extensive measures have been taken to validate the model and prevent overfitting. As of 6/26/25 I have been betting real money following the predictions. Therefore in the Excel sheet there is a tab which tracks returns since 6/26/25. Fingers crossed for a profitable season.
 
 
-## Time-Window Summary
-
-| Window | Date Range | Profit | Num Bets | ROI |
-|----------------|---------------------|--------|----------|-------|
-| Last 30 Days | 10/12/2025 - 11/10/2025 | +3.753 | 71 | 5.29% |
-| Last 3 Months | 08/13/2025 - 11/10/2025 | +16.788 | 210 | 7.99% |
-| Last 6 Months | 05/15/2025 - 11/10/2025 | +29.428 | 411 | 7.16% |
-| YTD | 01/01/2025 - 11/10/2025 | +93.105 | 752 | 12.38% |
-| Last 52 Weeks | 11/11/2024 - 11/10/2025 | +121.325 | 838 | 14.48% |
-| All Time | 08/25/2012 - 11/10/2025 | +1318.669 | 11192 | 11.78% |
 
 ## Weekly Results (Last 52 Weeks)
 
